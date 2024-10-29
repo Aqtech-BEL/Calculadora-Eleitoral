@@ -13,8 +13,9 @@ Após registrar todos os votos, o programa deve calcular e exibir o resultado da
 eleição, mostrando o total de votos de cada candidato
 
 *******************************************************************************/
-    #include <stdio.h>
-    #include <unistd.h> //Biblioteca de tempo
+
+        #include <stdio.h>
+        #include <unistd.h> //Biblioteca de tempo
     
     int main(){
         
