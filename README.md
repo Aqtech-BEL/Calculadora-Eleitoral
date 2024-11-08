@@ -1,10 +1,8 @@
+PROGRAMA - C:
 # Calculadora-Eleitoral
-/******************************************************************************
 
-Você foi contratado para desenvolver um programa que simule o processo de 
-votação em uma eleição. O programa deve registrar os votos de cada eleitor. 
-Os votos válidos serão 1 para o candidato A, 2 para o candidato B e 3 para voto 
-nulo.
+Programa que simule o processo de votação em uma eleição. O programa deve registrar os votos de cada eleitor. 
+Os votos válidos serão 1 para o candidato A, 2 para o candidato B e 3 para voto nulo.
 
 Por se tratar de uma simulação, o número máximo de cada votação é 10, ou seja, 
 o programa irá solicitar 10 votos.
@@ -12,12 +10,12 @@ o programa irá solicitar 10 votos.
 Após registrar todos os votos, o programa deve calcular e exibir o resultado da 
 eleição, mostrando o total de votos de cada candidato
 
-*******************************************************************************/
+
 
         #include <stdio.h>
         #include <unistd.h> //Biblioteca de tempo
     
-    int main(){
+        int main(){
         
         int a, b, c, votos = 0, numero = 0;
         
@@ -27,7 +25,7 @@ eleição, mostrando o total de votos de cada candidato
         
         
        
-       while(votos < 10){
+        while(votos < 10){
            
            printf("Bem-vindos à democracia! \n");
            printf("CANDIDATO A: Número 1. \n");
@@ -68,12 +66,12 @@ eleição, mostrando o total de votos de cada candidato
             sleep(2); //Aqui ele espera 5 Segundos para reiniciar o programa.
             
         }
-        
+                
         printf("Eleição encerrada! \n\n");
         printf("Candidato A teve %d votos!\n", a);
         printf("Candidato B teve %d votos!\n", b);
         printf("Votos nulos teve %d votos!\n", c);
-        
-    
+                
+            
         return 0;
-    }
+        }
